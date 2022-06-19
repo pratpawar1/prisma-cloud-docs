@@ -66,7 +66,7 @@ Deploy one Serverless Defender per function.
 Deploy App-Embedded Defender anywhere you can run a container, but you can't run Container Defender.
 Container-on-demand services are a typical use case for App-Embedded Defender.
 They abstract away the underlying cluster, host, operating system, and software modules (such as Docker Engine) and present them as a single black box.
-Hooks into the operating system that Container Defender needs to monitor and protect resources aren't available in these environments.
+Hooks into the operating system that the Container Defender needs to monitor and protect for resources that aren't available in these environments.
 Instead, embed App-Embedded Defender directly inside the container to establish a point of control.
 Prisma Cloud supports an automated workflows for embedding App-Embedded Defenders.
 
